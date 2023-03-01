@@ -7,7 +7,7 @@ interface Props {
 const Sidebar = ({ children }: Props): JSX.Element => {
   return (
     <div className="flex">
-      <div className="w-1/3 min-h-screen sticky top-0 bg-slate-200 border-r-2 border-purple-900 flex flex-col gap-10">
+      <div className="w-1/3 h-screen sticky top-0 bg-slate-200 border-r-2 border-purple-900 flex flex-col gap-10">
         <span className="text-5xl font-Heading">Cobi Reeves </span>
         <img
           src="/Cobi.png"

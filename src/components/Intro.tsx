@@ -11,7 +11,7 @@ const Intro = () => {
     <div className='flex flex-col'>
         <span className='text-4xl font-Heading'>About Me </span>
     </div>
-    <div className='flex bg-purple-100 w-2/3 rounded-3xl mx-auto mt-5'>
+    <div className='flex bg-purple-100 w-2/3 rounded-3xl mx-auto my-5'>
         <div className='p-10 flex flex-col'>
             <span className='text-lg font-Para leading-relaxed'> 
             I am thrilled and excited to pivot my career in Full Stack Development. I am an avid researcher who enjoys deep diving into analyzing problems, gathering data, and studying the comparable differences from my findings. Although, I am a quiet individual, my brain processes in high speeds and love involving myself in a collaborative environment. 
@@ -21,12 +21,13 @@ const Intro = () => {
             </span>
         </div>
     </div>
-    <div className='flex gap-20 mt-10'>
-      <img src={ReactLogo} alt="React logo" height={100} width={100} className='ml-auto'/>
-      <img src={ExpressLogo} alt="React logo" height={100} width={200}/>
-      <img src={JavascriptLogo} alt="React logo" height={100} width={100}/>
-      <img src={MongoDBLogo} alt="React logo" height={100} width={200}/>
-      <img src={NodeJSLogo} alt="React logo" height={100} width={150} className='mr-auto'/>
+        <span className='text-3xl font-Heading'>Technologies:</span>
+    <div className='gap-20 mt-10 xl:flex lg:grid lg:grid-cols-2 xsm:grid-cols-1'>
+      <img src={ReactLogo} alt="React logo" height={100} width={100} className='lg:ml-auto xsm:mx-auto'/>
+      <img src={ExpressLogo} alt="React logo" height={100} width={200} className='xsm:mx-auto'/>
+      <img src={JavascriptLogo} alt="React logo" height={100} width={100} className='xsm:mx-auto'/>
+      <img src={MongoDBLogo} alt="React logo" height={100} width={200} className='xsm:mx-auto'/>
+      <img src={NodeJSLogo} alt="React logo" height={100} width={150} className='xsm:mx-auto'/>
     </div>
     </div>
   )

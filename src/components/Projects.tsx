@@ -1,11 +1,9 @@
 import React from "react";
 
-type Props = {};
-
-const Projects = (props: Props) => {
+const Projects = () => {
   return (
-    <div className="mt-20">
-      <span className="text-6xl font-Heading">Projects </span>
+    <div className="mt-20 mx-5 flex flex-col">
+      <span className="text-6xl font-Heading border-b-2 border-purple-900 w-2/3 mx-auto">Projects </span>
       {/* Random Dungeon */}
       <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-1 mt-20">
         <img
@@ -13,9 +11,9 @@ const Projects = (props: Props) => {
           alt="Random Dungeon"
           className="p-10 md:col-start-2"
         />
-        <div className="flex flex-col gap-10 p-20 md:col-start-1 md:row-start-1 my-auto">
-          <span className="text-4xl"> Random Dungeon</span>
-          <span className="sm:text-lg font-Para leading-relaxed text-md">
+        <div className="flex flex-col gap-10 p-20 md:col-start-1 md:row-start-1 my-auto bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 rounded-3xl">
+          <span className="text-4xl font-Heading"> Random Dungeon</span>
+          <span className="sm:text-lg font-Para leading-relaxed text-md ">
             A text-based game in which a player goes through a random assortment
             of challenges, has many varied enemies and items for a unique
             experience every time! Has a Mongodb based leaderboard.
@@ -38,8 +36,8 @@ const Projects = (props: Props) => {
           alt="Park n' Bark"
           className="p-10 mx-auto"
         />
-        <div className="flex flex-col gap-10 p-20 my-auto">
-          <span className="text-4xl"> Park n' Bark</span>
+        <div className="flex flex-col gap-10 p-20 my-auto bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 rounded-3xl">
+          <span className="text-4xl font-Heading"> Park n' Bark</span>
           <span className="sm:text-lg font-Para leading-relaxed text-md">
             Created collaboratively with a group of 4, a website
             that shows the location and information about off leash dog parks in Calgary.
@@ -63,9 +61,9 @@ const Projects = (props: Props) => {
           alt="Masahe"
           className="p-10 md:col-start-2"
         />
-        <div className="flex flex-col gap-10 p-20 md:col-start-1 md:row-start-1 my-auto">
+        <div className="flex flex-col gap-10 p-20 md:col-start-1 md:row-start-1 my-auto bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 rounded-3xl">
           <img src="/MasaheLogo.png" alt="Masahe Logo" width={200} height={200} className='mx-auto'/>
-          <span className="text-4xl"> Masahe</span>
+          <span className="text-4xl font-Heading"> Masahe</span>
           <span className="sm:text-lg font-Para leading-relaxed text-md">
             Created collaboratively with a group of 3, An Application
             that acts as a helper for massage therapists health and safety. Shows clients and

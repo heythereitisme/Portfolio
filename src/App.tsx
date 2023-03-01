@@ -6,7 +6,7 @@ import Sidebar from "./components/Sidebar"
 function App() {
 
   return (
-    <div className="min-h-screen bg-slate-100 text-center">
+    <div className="min-h-screen bg-slate-200 text-center">
         <Sidebar>
           <Intro />
           <Projects />

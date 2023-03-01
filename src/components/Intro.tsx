@@ -9,9 +9,9 @@ const Intro = () => {
   return (
     <div>
     <div className='flex flex-col'>
-        <span className='text-6xl font-Heading'>About Me </span>
+        <span className='text-6xl font-Heading border-b-2 border-purple-900 w-2/3 mx-auto'>About Me </span>
     </div>
-    <div className='flex bg-purple-100 w-2/3 rounded-3xl mx-auto my-5'>
+    <div className='flex bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 w-2/3 rounded-3xl mx-auto my-5'>
         <div className='p-10 flex flex-col'>
             <span className='sm:text-lg font-Para leading-relaxed text-md'> 
             I am thrilled and excited to pivot my career in Full Stack Development. I am an avid researcher who enjoys deep diving into analyzing problems, gathering data, and studying the comparable differences from my findings. Although, I am a quiet individual, my brain processes in high speeds and love involving myself in a collaborative environment. 
@@ -21,7 +21,7 @@ const Intro = () => {
             </span>
         </div>
     </div>
-        <span className='text-3xl font-Heading'>Technologies:</span>
+        <span className='text-4xl font-Heading'>Technologies:</span>
     <div className='gap-20 mt-10 xl:flex lg:grid lg:grid-cols-2 xsm:grid-cols-1'>
       <img src={ReactLogo} alt="React logo" height={100} width={100} className='lg:ml-auto mx-auto'/>
       <img src={ExpressLogo} alt="React logo" height={100} width={200} className='mx-auto'/>

@@ -23,9 +23,9 @@ const Projects = () => {
             Mongodb, Git
           </span>
           <a href="https://github.com/heythereitisme/Random-Dungeon" className="w-1/2 h-12 text-lg font-Para self-center rounded-full"> 
-          <button className="bg-purple-800 w-full h-12 rounded-full text-slate-100 mx-auto hover:bg-blue-800">
-              <span>Github</span>
-          </button>
+          <button className="w-full relative transition-all h-12 before:w-0 before:bg-purple-900 before:h-2 before:absolute before:bottom-0 before:right-1/2 hover:before:w-full hover:before:right-0 before:transition-all before:duration-500 text-purple-900 mx-auto font-Para drop-shadow hover:text-indigo-800">
+          <span className="text-lg">Github</span>
+        </button>
             </a>
         </div>
       </div>
@@ -48,9 +48,9 @@ const Projects = () => {
             Figma, React Big Calendar, Teachable Machine
           </span>
             <a href="https://github.com/abbyrobinson13/park-n-bark" className="w-1/2 h-12 text-lg font-Para self-center rounded-full"> 
-          <button className="bg-purple-800 w-full h-12 rounded-full text-slate-100 mx-auto hover:bg-blue-800">
-              <span>Github</span>
-          </button>
+            <button className="w-full relative transition-all h-12 before:w-0 before:bg-purple-900 before:h-2 before:absolute before:bottom-0 before:right-1/2 hover:before:w-full hover:before:right-0 before:transition-all before:duration-500 text-purple-900 mx-auto font-Para drop-shadow hover:text-indigo-800">
+          <span className="text-lg">Github</span>
+        </button>
             </a>
         </div>
       </div>
@@ -75,9 +75,9 @@ const Projects = () => {
             Firebase, Socket.io, Figma, React Big Calendar, Trello
           </span>
           <a href="https://github.com/heythereitisme/Masahe" className="w-1/2 h-12 text-lg font-Para self-center rounded-full"> 
-          <button className="bg-purple-800 w-full h-12 rounded-full text-slate-100 mx-auto hover:bg-blue-800">
-              <span>Github</span>
-          </button>
+          <button className="w-full relative transition-all h-12 before:w-0 before:bg-purple-900 before:h-2 before:absolute before:bottom-0 before:right-1/2 hover:before:w-full hover:before:right-0 before:transition-all before:duration-500 text-purple-900 mx-auto font-Para drop-shadow hover:text-indigo-800">
+          <span className="text-lg">Github</span>
+        </button>
             </a>
         </div>
       </div>

@@ -12,9 +12,9 @@ const Experience = () => {
         were also done in teams, so I also learned much about working together collaboratively and working in an agile scrum environment.
       </span>
       <a href="https://www.inceptionu.com/" className="w-1/3 h-12 text-lg font-Para self-center rounded-full"> 
-          <button className="bg-purple-800 w-full h-12 rounded-full text-slate-100 mx-auto hover:bg-blue-800">
-              <span>Website</span>
-          </button>
+      <button className="w-full relative transition-all h-12 before:w-0 before:bg-purple-900 before:h-2 before:absolute before:bottom-0 before:right-1/2 hover:before:w-full hover:before:right-0 before:transition-all before:duration-500 text-purple-900 mx-auto font-Para drop-shadow hover:text-indigo-800">
+          <span className="text-lg">Website</span>
+        </button>
             </a>
             <div>
       </div>
@@ -22,7 +22,6 @@ const Experience = () => {
       <div className='mt-10'>
         <span className="text-4xl font-Heading"> More to come!</span>
       </div>
-      
     </div>
   )
 }

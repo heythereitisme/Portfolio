@@ -18,15 +18,16 @@ const Sidebar = ({ children }: Props): JSX.Element => {
         />
         <span className="text-3xl font-Heading">Full Stack Developer </span>
         <span className="text-2xl font-Heading">Calgary, AB </span>
+        <span className="font-Para">Connect with me on:</span>
 
-        <a href="https://github.com/heythereitisme" className="w-1/2 h-12 rounded-full self-center">
-        <button className="w-full bg-purple-800 h-12 rounded-full text-slate-100 mx-auto hover:bg-blue-800 font-Para">
-          Github
+        <a href="https://github.com/heythereitisme" className="w-1/2 h-12 self-center">
+        <button className="w-full relative transition-all h-12 before:w-0 before:bg-purple-900 before:h-2 before:absolute before:bottom-0 before:right-1/2 hover:before:w-full hover:before:right-0 before:transition-all before:duration-500 text-purple-900 mx-auto font-Para drop-shadow hover:text-indigo-800">
+          <span className="text-lg">Github</span>
         </button>
         </a>
-        <a href="https://www.linkedin.com/in/cobir12" className="w-1/2 h-12 rounded-full self-center mb-10">
-        <button className="w-full bg-purple-800 h-12 rounded-full text-slate-100 mx-auto hover:bg-blue-800 font-Para">
-          Linkedin
+        <a href="https://www.linkedin.com/in/cobir12" className="w-1/2 h-12 self-center mb-10">
+        <button className="w-full relative transition-all h-12 before:w-0 before:bg-purple-900 before:h-2 before:absolute before:bottom-0 before:right-0 hover:before:w-full hover:before:left-0 before:transition-all before:duration-500 text-purple-900 mx-auto font-Para drop-shadow">
+          <span className="text-lg">Linkedin</span>
         </button>
         </a>
       </div>

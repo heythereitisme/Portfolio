@@ -6,7 +6,7 @@ interface Props {
 
 const Sidebar = ({ children }: Props): JSX.Element => {
   return (
-    <div className="sm:flex">
+    <div className="overflow-hidden sm:flex sm:overflow-visible">
       <div className="sm:w-1/3 sm:h-screen sm:sticky sm:top-0 bg-gradient-to-r from-indigo-300 via-purple-300 to-indigo-300 border-r-2 border-purple-900 flex flex-col gap-10">
         <span className="text-5xl font-Heading">Cobi Reeves </span>
         <img
@@ -26,7 +26,7 @@ const Sidebar = ({ children }: Props): JSX.Element => {
         </button>
         </a>
         <a href="https://www.linkedin.com/in/cobir12" className="w-1/2 h-12 self-center mb-10">
-        <button className="w-full relative transition-all h-12 before:w-0 before:bg-purple-900 before:h-2 before:absolute before:bottom-0 before:right-0 hover:before:w-full hover:before:left-0 before:transition-all before:duration-500 text-purple-900 mx-auto font-Para drop-shadow">
+        <button className="w-full relative transition-all h-12 before:w-0 before:bg-purple-900 before:h-2 before:absolute before:bottom-0 before:right-1/2 hover:before:w-full hover:before:right-0 before:transition-all before:duration-500 text-purple-900 mx-auto font-Para drop-shadow hover:text-indigo-800">
           <span className="text-lg">Linkedin</span>
         </button>
         </a>

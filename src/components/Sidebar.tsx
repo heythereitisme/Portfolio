@@ -18,7 +18,7 @@ const Sidebar = ({ children }: Props): JSX.Element => {
         />
         <span className="text-3xl font-Heading">Full Stack Developer </span>
         <span className="text-2xl font-Heading">Calgary, AB </span>
-        <span className="font-Para">Connect with me on:</span>
+        <span className="font-Para">Find me on:</span>
 
         <a href="https://github.com/heythereitisme" className="w-1/2 h-12 self-center">
         <button className="w-full relative transition-all h-12 before:w-0 before:bg-purple-900 before:h-2 before:absolute before:bottom-0 before:right-1/2 hover:before:w-full hover:before:right-0 before:transition-all before:duration-500 text-purple-900 mx-auto font-Para drop-shadow hover:text-indigo-800">

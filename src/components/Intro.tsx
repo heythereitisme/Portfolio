@@ -9,7 +9,7 @@ const Intro = () => {
   return (
     <div>
     <div className='flex flex-col'>
-        <span className='text-6xl font-Heading border-b-2 border-purple-900 w-2/3 mx-auto'>About Me </span>
+        <span className='text-3xl sm:text-6xl font-Heading border-b-2 border-purple-900 w-2/3 mx-auto'>About Me </span>
     </div>
     <div className='flex bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 w-2/3 rounded-3xl mx-auto my-5'>
         <div className='p-10 flex flex-col'>

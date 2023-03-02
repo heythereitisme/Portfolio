@@ -3,7 +3,7 @@ import React from "react";
 const Projects = () => {
   return (
     <div className="mt-20 mx-5 flex flex-col">
-      <span className="text-6xl font-Heading border-b-2 border-purple-900 w-2/3 mx-auto">Projects </span>
+      <span className="text-3xl sm:text-6xl font-Heading border-b-2 border-purple-900 w-2/3 mx-auto">Projects </span>
       {/* Random Dungeon */}
       <div className="grid grid-cols-1 md:grid-cols-2 md:grid-rows-1 mt-20">
         <img

@@ -3,7 +3,7 @@ import React from 'react'
 const Experience = () => {
   return (
     <div className='mb-20 mt-10 flex flex-col mx-5'>
-      <span className='text-6xl font-Heading border-b-2 border-purple-900 w-2/3 mx-auto'>Experience</span>
+      <span className='text-3xl sm:text-6xl font-Heading border-b-2 border-purple-900 w-2/3 mx-auto'>Experience</span>
       <div className='mt-20 flex flex-col gap-10 bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 rounded-3xl'>
         <img src="/InceptionU.png" alt="InceptionU" height={300} width={500} className='mx-auto'/>
       <span className='sm:text-lg font-Para leading-relaxed text-md px-24'>
